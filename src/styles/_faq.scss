@@ -11,6 +11,7 @@
             margin-bottom: 16px;
             background-color: #13151d;
             
+            
             &__question {
                 color: #fff;
                 font-size: 20px;
@@ -18,7 +19,7 @@
                 display: block;
                 cursor: pointer;
                 position: relative;
-
+                
                 &::after {
                     content: '+';
                     position: absolute;
@@ -30,7 +31,7 @@
                     font-size: 40px;
                 }
             }
-
+            
             &__answer {
                 height: 0;
                 overflow: hidden;
